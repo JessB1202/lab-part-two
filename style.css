@@ -118,5 +118,45 @@ button {
 }
 
 @media only screen and (min-width: 992px) {
+  .circle {
+    width: 150px;
+    height: 150px;
+  }
   
+  .one {
+    width: 280px;
+    height: 280px;
+  }
+  
+  .two {
+    width: 180px;
+    height: 180px;
+    top: 45%;
+  }
+
+  footer {
+    padding-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .circle {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .one {
+    width: 310px;
+    height: 310px;
+  }
+  
+  .two {
+    width: 210px;
+    height: 210px;
+    top: 48%;
+  }
+
+  footer {
+    padding-top: 260px;
+  }
 }

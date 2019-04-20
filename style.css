@@ -67,8 +67,7 @@ button {
   }
 
   .text {
-    width: 50%;
-    height: auto;
+    width: 50%;xs
   }
 
   .diagram {
@@ -88,7 +87,7 @@ button {
     height: 250px;
     background-color: rgba(247,136,167,0.6);
     position: absolute;
-    top: 30%;
+    top: 25%;
     right: 12%;
     z-index: 3;
   }
@@ -98,21 +97,26 @@ button {
     height: 150px;
     background-color: rgba(247,193,162,0.7);
     position: absolute;
-    top: 50%;
-    right: 10%;
+    top: 43%;
+    right: 3%;
     z-index: 3;
   }
   
   .three {
     background-color: rgba(207,130,213,0.6);
     position: absolute;
-    top: 35%;
+    top: 30%;
     right: 1%;
     z-index: 2;
   }
 
   footer {
-    margin-top: 10px;
+    padding-top: 100px;
+    position: relative;
     text-align: center;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  
 }

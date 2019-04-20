@@ -1,0 +1,35 @@
+/*mobile-first styling */
+@font-face {
+  font-family: "open-sans"; src: url("OpenSans-Regular.ttf");
+}
+
+body {
+  background-color: #f9fafc;
+  font-family: "open-sans";
+}
+
+#nav {
+  display:flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #69696a;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 20px
+}
+
+.info {
+  border-left: 2px solid #69696a;
+  color: #69696a;
+  padding-left: 20px;
+}
